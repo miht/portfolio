@@ -10,4 +10,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: r2 object put portfolio/webgl.data.gz --file=webgl/webgl.data.gz
+          command: r2 object put portfolio/build/webgl.data.gz --file=webgl/Build/webgl.data.gz
